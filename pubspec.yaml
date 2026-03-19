@@ -10,7 +10,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  unity_ads_plugin: ^4.0.0
+  unity_ads_plugin: ^0.3.30
 
 flutter:
   uses-material-design: true
