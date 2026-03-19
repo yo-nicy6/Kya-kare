@@ -48,7 +48,7 @@ class _HomePageState extends State<HomePage> {
   void _initUnityAds() {
     UnityAds.init(
       gameId: gameId,
-      testMode: false,
+      testMode: true,
       onComplete: () {
         setState(() => _adsReady = true);
         _loadBanner();
@@ -120,11 +120,11 @@ class _HomePageState extends State<HomePage> {
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
-                  Text('QUICK ACCESS',
+                  Text('SOLX',
                       style: TextStyle(
                           color: Colors.cyan,
-                          fontSize: 14,
-                          letterSpacing: 4,
+                          fontSize: 28,
+                          letterSpacing: 8,
                           fontWeight: FontWeight.bold)),
                   SizedBox(height: 40),
                   if (_timerRunning || _timerDone)
