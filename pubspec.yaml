@@ -10,7 +10,6 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  startapp_sdk: ^1.0.1
 
 flutter:
   uses-material-design: true
